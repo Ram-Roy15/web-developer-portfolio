@@ -24,6 +24,7 @@ body {
   color: #757575;
   font-size: 14px;
   font-weight: 400;
+  margin-bottom: 0px;
 }
 
 /* nav related styles */
@@ -94,13 +95,13 @@ nav a {
 }
 /* main section styles */
 main {
-  max-width: 1200px;
+  width: 1140px;
   margin: 0 auto;
 }
 
 /* About section styles */
 .about {
-  margin: 130px 220px;
+  margin: 80px 100px;
   background-color: #fff8f3;
   padding: 100px;
 }
@@ -110,4 +111,20 @@ main {
 }
 .about-info {
   text-align: center;
+}
+#what-i-do-des {
+  padding: 10px 200px;
+}
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 100px;
+  gap: 20px;
+}
+.skill {
+  margin-top: 0;
+  padding: 15px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
