@@ -1,6 +1,8 @@
 /* common sharesd styles*/
 body {
   font-family: "Open Sans", sans-serif;
+  width: 1240px;
+  margin: auto;
 }
 .text-orange {
   color: #fd6e0a;
@@ -19,6 +21,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
+  margin: 0 200px;
 }
 
 .web-name {
@@ -40,4 +43,33 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+
+/* header ralated styles */
+.header {
+  background: #fff8f3;
+}
+.banner {
+  margin: 30px 30px 30px 200px;
+  display: flex;
+  align-items: center;
+}
+.banner-pic {
+  height: 656px;
+  width: 564px;
+}
+.banner-greting {
+  color: var(--Dark-02, #474747);
+  font-size: 40px;
+  font-weight: 600;
+}
+.hardy {
+  color: var(--Dark-01, #181818);
+  font-size: 70px;
+  font-weight: 700;
+}
+.banner-description {
+  color: var(--Dark-03, #757575);
+  font-size: 14px;
+  font-weight: 400;
 }
